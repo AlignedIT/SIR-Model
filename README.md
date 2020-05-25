@@ -1,3 +1,22 @@
+ Introduction:
+ Hi All,
+
+I am working on a Covid problem for DWave.  I started with the SIR model which describes the transmission of a disease through a number of partial differential equations. I converted this model to a finite element model where I can see the actual transmission with distance through a population, and also with time. 
+
+I am now converting it to an optimization problem that would determine what is the optimal way to balance lockdowns vs keeping cities open.  My current idea is to have each city be respresented by a qubit, and each city to city transmission be respresented as the coupling between qubits (in the finite element model this is the transfer_rate). The goal is for Dwave to balance the negative cost of closing a city (possibly revenue and economy impact) vs the negative cost of keeping it open (which would be the disease transmitted from more infected cities to lower infected cities). When a city is in lockdown it would be represented by 0, when it is open it would be represented by a 1. In other words the city would not be "visible" and not be transmitting any disease when the qubit is 0, while it would be visible when 1.  DWave would be given the initial conditions in terms of the QUBO. These would be initial values on the linear terms (the qubits representing the condition of the city or node), and the quadratic terms (the links, or edges between the cities). These initial conditions in the form of a QUBO would be a snapshot in time, based on the evolution of the finte element model. Next DWave will optimize (and balance) between the negative costs of shutting a city vs the negative cost of staying open. This optimization would give a picture in time of the optimal step to take based on the current outbreaks. Which cities should be kept open and which should be closed. Then the classical algorithm would move the disease forward in time with new outbreaks using the finite element model. Then Dwave would be used to reoptimize the ideal lockdowns. Some cities would open again, others would close.  The goal is to find whether such a hybrid fea-evolution to quantum-optimization can be used to minimize the economic and disease impacts.
+
+This is very preliminary work, and I am open to ideas and questions. 
+
+The SIR model code can be found at https://github.com/AlignedIT/SIR-Model
+Some initial ideas are in the readme page. The jupyter code is the SIR finite element model. Anyone interested in working with me in converting this to the optimization formulation and then converting to a QUBO, please let me know. Best place to connect and chat is on LinkedIn  https://www.linkedin.com/in/alexkhanmba/
+
+Alex Khan
+
+Aligned IT, LLC
+ 
+ 
+ 
+ 
  SIR-Model
  ==========
  Trying to model this on DWave will have a number of challenges
