@@ -1,4 +1,5 @@
  Introduction:
+ 
  Hi All,
 
 I am working on a Covid problem for DWave.  I started with the SIR model which describes the transmission of a disease through a number of partial differential equations. I converted this model to a finite element model where I can see the actual transmission with distance through a population, and also with time. 
