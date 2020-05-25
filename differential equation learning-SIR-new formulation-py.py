@@ -360,14 +360,4 @@ print('This plot has time on the horizontal axis')
 #plt.show()
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
