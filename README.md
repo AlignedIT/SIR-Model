@@ -15,10 +15,13 @@ Alex Khan
 
 Aligned IT, LLC
  
+SIR-Model with Cities (update May 25th 2020)
+====================
+Latest updates are in. I changed the code from 1-D to a set of n cities with links between them.
+This is going to be the beginnings of converting the model to a QUBO.
  
  
- 
- SIR-Model
+ SIR-Model (update May 23rd 2020)
  ==========
  Trying to model this on DWave will have a number of challenges
 
