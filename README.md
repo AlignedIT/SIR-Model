@@ -14,11 +14,16 @@ Some initial ideas are in the readme page. The jupyter code is the SIR finite el
 Alex Khan
 
 Aligned IT, LLC
+
+SIR-Model with Objective Function (Updated June 3 2020)
+=================================
+This version contains an objective function that is balanced and is converted into a QUBO and sent to DWave
+Check out "SIR QUBO reformulate to cities and links Cost Function.ipynb"
  
 SIR-Model with Cities (update May 25th 2020)
 ====================
 Latest updates are in check out: 
-SIR QUBO reformulate to cities and links.ipynb
+"SIR QUBO reformulate to cities and links.ipynb"
 
 I changed the code from 1-D to a set of n cities with links between them.
 This is going to be the beginnings of converting the model to a QUBO.
