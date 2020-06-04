@@ -17,8 +17,9 @@ Aligned IT, LLC
 
 SIR-Model with Objective Function (Updated June 3 2020)
 =================================
-This version contains an objective function that is balanced and is converted into a QUBO and sent to DWave
-Check out "SIR QUBO reformulate to cities and links Cost Function.ipynb"
+This version contains an objective function that is balanced and is converted into a QUBO and sent to DWave.
+
+Check out "SIR QUBO reformulate for cities, links and object function.ipynb"
  
 SIR-Model with Cities (update May 25th 2020)
 ====================
