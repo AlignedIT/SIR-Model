@@ -12,11 +12,13 @@ The SIR model code can be found at https://github.com/AlignedIT/SIR-Model
 Some initial ideas are in the readme page. The jupyter code is the SIR finite element model. Anyone interested in working with me in converting this to the optimization formulation and then converting to a QUBO, please let me know. Best place to connect and chat is on LinkedIn  https://www.linkedin.com/in/alexkhanmba/
 
 Alex Khan
+Aligned IT, LLC
+alex.khan@alignedit.com
 
 Herd vs Lockdown meets Dijkstra Shortest Path (Updated July 28 2020)
 =============================================
 
-Aligned IT, LLCA team in India is taking the Herd vs Lockdown COVID SIRD model and applying it to a pressing need of 
+A team in India is taking the Herd vs Lockdown COVID SIRD model and applying it to a pressing need of 
 
 a) determining which sections of a city should be optimally locked down
 
