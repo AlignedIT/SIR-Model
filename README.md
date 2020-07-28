@@ -13,7 +13,22 @@ Some initial ideas are in the readme page. The jupyter code is the SIR finite el
 
 Alex Khan
 
-Aligned IT, LLC
+Herd vs Lockdown meets Dijkstra Shortest Path (Updated July 28 2020)
+=============================================
+
+Aligned IT, LLCA team in India is taking the Herd vs Lockdown COVID SIRD model and applying it to a pressing need of 
+
+a) determining which sections of a city should be optimally locked down
+
+b) what are the optimal routes that can be travelled to avoid lockdown areas
+
+c) how the re-routed traffic further helps or hinders the economy and disease transmission
+
+d) can quantum-annealing inform the most optimized schedule of lockdown taking the above factors to reduce disruption to the economy while also reducing the transmission and impact of the disease
+
+We will continue to inform the D-Wave teams and D-Wave COVID community on our progress.  Please continue to make resources available as we look at new formulations and validate our model and results.
+
+
 
 SIR-Model with Objective Function (Updated June 3 2020)
 =================================
